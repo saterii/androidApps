@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">E01 First Application</string>
+    <string name="button_txt">Click me!</string>
+    <string name="button_clicked_txt">Button clicked!</string>
+</resources>
