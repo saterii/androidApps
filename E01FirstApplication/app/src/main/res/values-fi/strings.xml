@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">E01 First Application</string>
+    <string name="app_name">E01 Ensimmäinen sovellus</string>
+    <string name="button_txt">Klikkaa minua!</string>
+    <string name="button_clicked_txt">Painike klikattu!</string>
+    <string name="hello_txt">Hei maailma!</string>
+    <string name="portrait_txt">Pystysuuntainen näkymä</string>
+    <string name="landscape_txt">Vaakasuuntainen näkymä</string>
 </resources>
