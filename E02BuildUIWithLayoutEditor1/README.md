@@ -2,7 +2,7 @@
 
 Vertical layout  
 
-![kotlin basics](Exercise-images/kotlinpathways.png)  
+![kotlin basics](Exercise-images/kotlinpathways.PNG)  
 
 Vertical layout  
 
