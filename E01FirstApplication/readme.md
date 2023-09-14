@@ -1,4 +1,8 @@
 # Exercise screenshots
+kotlin basics pathways  
+
+![vertical start](https://gitlab.labranet.jamk.fi/AB6912/android-exercises/-/raw/main/E01FirstApplication/Exercise_images/kotlinBasics.png)
+
 
 Vertical start (in Finnish)  
 
