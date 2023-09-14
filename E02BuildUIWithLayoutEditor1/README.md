@@ -1,6 +1,6 @@
 # Exercise images
 
-Vertical layout  
+Kotlin pathways  
 
 ![kotlin basics](Exercise-images/kotlinpathways.PNG)  
 
