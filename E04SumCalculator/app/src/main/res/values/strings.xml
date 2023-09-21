@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">E04 Sum Calculator</string>
+    <string name="result">0</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_0">0</string>
+    <string name="sym_add">+</string>
+    <string name="sym_sub">-</string>
+    <string name="sym_div">/</string>
+    <string name="sym_mul">*</string>
+    <string name="sym_equ">=</string>
+    <string name="sym_clear">C</string>
+    <string name="sym_parOpen">(</string>
+    <string name="sym_parClose">)</string>
+    <string name="sym_mc">MC</string>
+    <string name="sym_sin">SIN</string>
+    <string name="sym_cos">COS</string>
+    <string name="sym_tan">TAN</string>
+    <string name="sym_rad2">RAD</string>
+    <string name="sym_e">E</string>
+    <string name="sym_ln">LN</string>
+    <string name="sym_ee">EE</string>
+    <string name="sym_rad">RAD</string>
+    <string name="sym_yx">YX</string>
+</resources>

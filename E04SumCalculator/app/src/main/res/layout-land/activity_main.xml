@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_marginTop="-67dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="621dp"
+            android:layout_weight="1"
+            android:src="@drawable/calculation" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/resultView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="7dp"
+            android:text="@string/result"
+            android:textAlignment="viewEnd"
+            android:textColor="#8F8F8F"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/symParOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_parOpen"
+                android:textSize="23sp"
+                />
+
+
+            <Button
+                android:id="@+id/symParClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_parClose"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symMC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_mc"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_7"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_8"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_9"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symMul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_mul"
+                android:textSize="23sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/symSIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_sin"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symCOS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_cos"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symTAN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_tan"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_4"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_5"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_6"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_sub"
+                android:textSize="23sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/symRAD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_rad"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_e"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symLN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_ln"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_1"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_2"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_3"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_add"
+                android:onClick="symbolInput"
+                android:textSize="23sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/symEE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_ee"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symRAD2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_rad2"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symYX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_yx"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/num0"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/num_0"
+                android:onClick="numberInput"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_clear"
+                android:onClick="clearAll"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/symEqu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13.6dp"
+                android:padding="11dp"
+                android:text="@string/sym_equ"
+                android:onClick="displayResult"
+                android:textSize="23sp" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
