@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RecyclerView Demo"
-include(":app")
+rootProject.name = "E05LaunchAMap"
 include(":app")
