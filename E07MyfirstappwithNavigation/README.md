@@ -1,5 +1,9 @@
 # Exercise screenshots
 
+Unit 3 pathways 1-2  
+
+![unit3](Exercise-Images/path.PNG)  
+
 Initial state of the app  
 
 ![initial state](Exercise-Images/init.png)  
