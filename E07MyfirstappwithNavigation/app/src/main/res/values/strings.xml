@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">E07 My first app with Navigation</string>
+    <string name="default_text">Default message</string>
+    <string name="send_data">Send data</string>
+    <string name="go_back">Return</string>
+</resources>
