@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E13 Room Shopping List</string>
+    <string name="item_name">Item name</string>
+    <string name="count">Item count</string>
+    <string name="price">Item price</string>
+    <string name="dialog_item_name">Name</string>
+    <string name="dialog_count">Count</string>
+    <string name="dialog_price">Price</string>
+    <string name="dialog_title">Your Dialog Title</string>
+    <string name="dialog_message">Your Dialog Message</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>
