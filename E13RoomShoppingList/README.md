@@ -1,3 +1,8 @@
+# Pathway screenshots from previous labs
+
+![internet](Exercise-Images/internet.png) 
+![navigation](Exercise-Images/navigation.png) 
+![data](Exercise-Images/datapersistance.png) 
 # Exercise screenshots
 
 Initial state of the app  
