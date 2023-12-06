@@ -23,7 +23,7 @@ import java.time.format.DateTimeFormatter
 class WeatherAppWidget : AppWidgetProvider() {
     private val API_LINK: String = "https://api.openweathermap.org/data/2.5/weather?q="
     private val API_ICON: String = "https://openweathermap.org/img/w/"
-    private val API_KEY: String = "b792b2a0e54a65c32d991dade856c9f6" // Replace with your OpenWeatherMap API Key
+    private val API_KEY: String = "api key was here" // Replace with your OpenWeatherMap API Key
 
     private fun loadWeatherForecast(
         city: String,
