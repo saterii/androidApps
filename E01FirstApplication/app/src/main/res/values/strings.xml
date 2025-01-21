@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">E01 First Application</string>
-    <string name="button_txt">Click me!</string>
-    <string name="button_clicked_txt">Button clicked!</string>
-    <string name="hello_txt">Hello world!</string>
-    <string name="portrait_txt">Portrait orientation</string>
-    <string name="landscape_txt">Landscape orientation</string>
-</resources>
